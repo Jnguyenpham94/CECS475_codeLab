@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "CalculatorLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/CalculatorLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CalculatorLibrary.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "CalculatorLibrary/1.0.0": {
-      "type": "project",
-      "path": "../CalculatorLibrary/CalculatorLibrary.csproj",
-      "msbuildProject": "../CalculatorLibrary/CalculatorLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "CalculatorLibrary >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\nguye\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguye\\Documents\\GitHub\\CECS475_codeLab\\Calculator\\Calculator.csproj",
-      "projectName": "Calculator",
-      "projectPath": "C:\\Users\\nguye\\Documents\\GitHub\\CECS475_codeLab\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\nguye\\Documents\\GitHub\\CECS475_codeLab\\CalculatorLibrary\\CalculatorLibrary.csproj",
+      "projectName": "CalculatorLibrary",
+      "projectPath": "C:\\Users\\nguye\\Documents\\GitHub\\CECS475_codeLab\\CalculatorLibrary\\CalculatorLibrary.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\Documents\\GitHub\\CECS475_codeLab\\Calculator\\obj\\",
+      "outputPath": "C:\\Users\\nguye\\Documents\\GitHub\\CECS475_codeLab\\CalculatorLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,11 +32,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\nguye\\Documents\\GitHub\\CECS475_codeLab\\CalculatorLibrary\\CalculatorLibrary.csproj": {
-              "projectPath": "C:\\Users\\nguye\\Documents\\GitHub\\CECS475_codeLab\\CalculatorLibrary\\CalculatorLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
