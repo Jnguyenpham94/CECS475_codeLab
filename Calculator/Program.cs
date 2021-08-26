@@ -1,8 +1,9 @@
 ﻿using System;
+using CalculatorLibrary;
 
 namespace Calculator
 {
-    class Calculator
+    public class CalculatorProgram
     {
         public static double DoOperation(double num1, double num2, string op)
         {
@@ -43,6 +44,7 @@ namespace Calculator
             // Display title as the C# console calculator app.
             Console.WriteLine("Console Calculator in C#\r");
             Console.WriteLine("------------------------\n");
+            Calculator calculator = new Calculator();
 
             while (!endApp)
             {
@@ -85,7 +87,7 @@ namespace Calculator
 
                 try
                 {
-                    result = Calculator.DoOperation(cleanNum1, cleanNum2, op);
+                    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
                     if (double.IsNaN(result))
                     {
                         Console.WriteLine("This operation will result in a mathematical error.\n");

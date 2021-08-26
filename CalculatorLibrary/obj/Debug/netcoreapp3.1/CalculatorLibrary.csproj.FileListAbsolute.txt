@@ -1,0 +1,10 @@
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CalculatorLibrary\bin\Debug\netcoreapp3.1\CalculatorLibrary.deps.json
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CalculatorLibrary\bin\Debug\netcoreapp3.1\CalculatorLibrary.dll
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CalculatorLibrary\bin\Debug\netcoreapp3.1\CalculatorLibrary.pdb
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.csproj.AssemblyReference.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.AssemblyInfoInputs.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.AssemblyInfo.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.dll
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CalculatorLibrary\obj\Debug\netcoreapp3.1\CalculatorLibrary.pdb
