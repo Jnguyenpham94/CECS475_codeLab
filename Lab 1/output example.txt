@@ -1,0 +1,40 @@
+The output sample:
+
+
+Broker Stock Value Changes
+
+Broker 2 Commodity 553 4
+Broker 4 Commodity 553 4
+Broker 1 Technology 177 5
+Broker 2 Technology 177 5
+Broker 3 Technology 177 5
+Broker 4 Technology 177 5
+Broker 2 Banking 103 5
+Broker 2 Commodity 571 5
+Broker 4 Commodity 571 5
+Broker 3 Banking 103 5
+Broker 4 Banking 103 5
+Broker 1 Technology 179 6
+Broker 2 Technology 179 6
+Broker 3 Technology 179 6
+Broker 4 Technology 179 6
+Broker 2 Banking 105 6
+Broker 3 Banking 105 6
+Broker 4 Banking 105 6
+Broker 2 Commodity 581 6
+Broker 4 Commodity 581 6
+Broker 1 Technology 181 7
+Broker 2 Technology 181 7
+Broker 1 Retail 37 7
+Broker 4 Retail 37 7
+Broker 2 Banking 107 7
+Broker 3 Banking 107 7
+Broker 4 Banking 107 7
+Broker 2 Commodity 588 7
+Broker 4 Commodity 588 7
+Broker 3 Technology 181 7
+Broker 4 Technology 181 7
+Broker 2 Banking 108 8
+Broker 1 Retail 38 8
+Broker 2 Commodity 589 8
+Broker 1 Technology 182 8

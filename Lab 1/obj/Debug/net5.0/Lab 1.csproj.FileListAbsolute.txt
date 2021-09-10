@@ -1,0 +1,5 @@
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.csproj.AssemblyReference.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.AssemblyInfoInputs.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.AssemblyInfo.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.csproj.CoreCompileInputs.cache
