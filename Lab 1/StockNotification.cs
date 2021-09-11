@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-namespace Stock
+namespace Lab_1
 {
     public class StockNotification : EventArgs
     {
@@ -16,6 +16,7 @@ namespace Stock
         /// <param name="numChanges">Number of changes the stock goes through</param>
         public StockNotification(string stockName, int currentValue, int numChanges)
         {
+
         }
     }
 }

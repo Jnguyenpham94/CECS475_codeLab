@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
-namespace Stock
+namespace Lab_1
 {
     public class Stock
     {
@@ -23,8 +23,13 @@ namespace Stock
         /// <param name="threshold">The range for the stock</param>
         public Stock(string name, int startingValue, int maxChange, int threshold)
         {
-
+            StockName = name;
+            InitialValue = startingValue;
+            MaxChange = maxChange;
+            Threshold = threshold;
         }
+
+
         /// <summary>
         /// Activates the threads synchronizations
         /// </summary>
@@ -36,6 +41,8 @@ namespace Stock
                 //Call the function ChangeStockValue
             }
         }
+
+
         /// <summary>
         /// Changes the stock value and also raising the event of stock value changes
         /// </summary>

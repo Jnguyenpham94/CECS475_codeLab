@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 using System.Threading;
-namespace Stock
+namespace Lab_1
 {
     public class StockBroker
     {
@@ -21,6 +21,8 @@ namespace Stock
         {
             BrokerName = brokerName;
         }
+
+
         /// <summary>
         /// Adds stock objects to the stock list
         /// </summary>
