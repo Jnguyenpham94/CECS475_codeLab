@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\CalculatorLibrary",
-    "\\Lab 1",
-    "\\Lab 1\\bin",
-    "\\Lab 1\\bin\\Debug"
+    "\\Lab 1"
   ],
-  "SelectedNode": "\\Lab 1\\bin\\Debug",
+  "SelectedNode": "\\Lab 1\\StockNotification.cs",
   "PreviewInSolutionExplorer": false
 }
