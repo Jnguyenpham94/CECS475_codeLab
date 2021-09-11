@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Lab 1": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false,
+      "nativeDebugging": true
+    }
+  }
+}

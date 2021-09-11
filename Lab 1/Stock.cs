@@ -23,6 +23,7 @@ namespace Stock
         /// <param name="threshold">The range for the stock</param>
         public Stock(string name, int startingValue, int maxChange, int threshold)
         {
+
         }
         /// <summary>
         /// Activates the threads synchronizations
