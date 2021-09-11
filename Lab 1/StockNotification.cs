@@ -16,6 +16,9 @@ namespace Lab_1
         /// <param name="numChanges">Number of changes the stock goes through</param>
         public StockNotification(string stockName, int currentValue, int numChanges)
         {
+            StockName = stockName;
+            CurrentValue = currentValue;
+            NumChanges = numChanges;
 
         }
     }

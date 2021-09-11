@@ -32,6 +32,8 @@ namespace Lab_1
             stocks.Add(_______________________);
             stock.StockEvent += _________________________________
         }
+
+
         /// <summary>
         /// The eventhandler that raises the event of a change
         /// </summary>

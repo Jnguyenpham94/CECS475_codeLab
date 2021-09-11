@@ -27,6 +27,7 @@ namespace Lab_1
             InitialValue = startingValue;
             MaxChange = maxChange;
             Threshold = threshold;
+            Activate();
         }
 
 
@@ -39,6 +40,7 @@ namespace Lab_1
             {
                 Thread.Sleep(500); // 1/2 second
                 //Call the function ChangeStockValue
+                ChangeStockValue();
             }
         }
 
@@ -49,8 +51,8 @@ namespace Lab_1
         public void ChangeStockValue()
         {
             var rand = new Random();
-            CurrentValue += _________________________
-        NumChanges++;
+            CurrentValue += rand;
+            NumChanges++;
             if ((CurrentValue - InitialValue) > Threshold)
             {
                 StockEvent?.Invoke }
