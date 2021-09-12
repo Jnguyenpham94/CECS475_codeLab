@@ -29,7 +29,7 @@ namespace Lab_1
         /// <param name="stock">Stock object</param>
         public void AddStock(Stock stock)
         {
-            stocks.Add(_______________________);
+            stocks.Add(stock);
             stock.StockEvent += _________________________________
         }
 
