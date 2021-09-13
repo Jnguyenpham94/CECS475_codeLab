@@ -7,7 +7,7 @@ namespace Lab_1
     public class Stock
     {
         public event EventHandler<StockNotification> StockEvent;
-        private readonly Thread _thread;
+        private readonly Thread thread;
         public string StockName { get; set; }
         public int InitialValue { get; set; }
         public int CurrentValue { get; set; }
@@ -28,7 +28,8 @@ namespace Lab_1
             InitialValue = startingValue;
             MaxChange = maxChange;
             Threshold = threshold;
-            Activate();
+            thread = new Thread(new ThreadStart(Activate));
+            thread.Start();
         }
 
 
@@ -44,7 +45,7 @@ namespace Lab_1
                 ChangeStockValue();
             }
         }
-
+        
         /// <summary>
         /// Changes the stock value and also raising the event of stock value changes
         /// </summary>
@@ -55,7 +56,8 @@ namespace Lab_1
             NumChanges++;
             if ((CurrentValue - InitialValue) > Threshold)
             {
-                StockEvent?.Invoke(this, );
+                StockNotification note = StockNotification;
+                StockEvent?.Invoke(this, note);
             }
         }
     }

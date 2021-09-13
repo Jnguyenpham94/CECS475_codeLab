@@ -13,7 +13,7 @@ namespace Lab_1
         public List<Stock> stocks = new List<Stock>();
 
         public static ReaderWriterLockSlim myLock = new ReaderWriterLockSlim();
-        readonly string docPath = @"C:\Users\Documents\CECS 475\Lab3_output.txt";
+        readonly string docPath = @"C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\Lab3_output.txt";
 
         public string titles = "Broker".PadRight(10) + "Stock".PadRight(15) + "Value".PadRight(10) + "Changes".PadRight(10) + "Date and Time";
 
@@ -43,9 +43,16 @@ namespace Lab_1
         /// <param name="e">Event arguments</param>
         void EventHandler(Object sender, EventArgs e)
         {
-            Stock newStock = (Stock)sender;
-            string statement;
-            Console.WriteLine(titles);
+            try
+            {
+                Stock newStock = (Stock)sender;
+                //string statement;
+                Console.WriteLine(titles);
+            }
+            finally
+            {//file processing HERE
+
+            }
     }
     } 
 }
