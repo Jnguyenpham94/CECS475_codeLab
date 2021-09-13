@@ -6,6 +6,7 @@ namespace Lab_1
     {
         static void Main(string[] args)
         {
+            
             Stock stock1 = new Stock("Technology", 160, 5, 15);
             Stock stock2 = new Stock("Retail", 30, 2, 6);
             Stock stock3 = new Stock("Banking", 90, 4, 10);
@@ -29,6 +30,7 @@ namespace Lab_1
             b4.AddStock(stock2);
             b4.AddStock(stock3);
             b4.AddStock(stock4);
+            
         }
     }
 }

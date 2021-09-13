@@ -14,6 +14,7 @@ namespace Lab_1
         public int MaxChange { get; set; }
         public int Threshold { get; set; }
         public int NumChanges { get; set; }
+
         /// <summary>
         /// Stock class that contains all the information and changes of the stock
         /// </summary>
@@ -44,18 +45,18 @@ namespace Lab_1
             }
         }
 
-
         /// <summary>
         /// Changes the stock value and also raising the event of stock value changes
         /// </summary>
         public void ChangeStockValue()
         {
-            var rand = new Random();
+            var rand = new Random().Next(MaxChange);
             CurrentValue += rand;
             NumChanges++;
             if ((CurrentValue - InitialValue) > Threshold)
             {
-                StockEvent?.Invoke }
+                StockEvent?.Invoke(this, );
+            }
         }
     }
 }

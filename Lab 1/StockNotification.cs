@@ -8,6 +8,7 @@ namespace Lab_1
         public string StockName { get; set; }
         public int CurrentValue { get; set; }
         public int NumChanges { get; set; }
+        
         /// <summary>
         /// Stock notification attributes that are set and changed
         /// </summary>
