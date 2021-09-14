@@ -51,7 +51,7 @@ namespace Lab_1
         /// </summary>
         public void ChangeStockValue()
         {
-            var rand = new Random().Next(MaxChange);
+            var rand = new Random().Next(-MaxChange, MaxChange);
             CurrentValue += rand;
             NumChanges++;
             if ((CurrentValue - InitialValue) > Threshold)
