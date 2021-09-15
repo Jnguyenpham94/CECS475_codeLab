@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 namespace Lab_1
 {
     public class Stock
     {
-        public event EventHandler<StockNotification> StockEvent;
+        public event EventHandler<EventData> StockEvent;
+        public event EventHandler<EventData> StockEventData;
         private readonly Thread thread;
         public string StockName { get; set; }
         public int InitialValue { get; set; }
@@ -33,32 +35,32 @@ namespace Lab_1
         }
 
 
-        /// <summary>
-        /// Activates the threads synchronizations
-        /// </summary>
-        public void Activate()
+        // Change the stock's value every 500 milliseconds
+        private void Activate()
         {
-            for (int i = 0; i < 25; i++)
+            for (int i = 0; i < 50; i++)
             {
-                Thread.Sleep(500); // 1/2 second
-                //Call the function ChangeStockValue
+                Thread.Sleep(500);
                 ChangeStockValue();
+                i++;
             }
         }
-        
-        /// <summary>
-        /// Changes the stock value and also raising the event of stock value changes
-        /// </summary>
-        public void ChangeStockValue()
+        // Change the stock value and invoke event to notify stock brokers when the threshold is reach
+        private void ChangeStockValue()
         {
-            var rand = new Random().Next(-MaxChange, MaxChange);
-            CurrentValue += rand;
+            // Generate a random number to within a range that stock can change every time unit and add it to the current stock's value
+            Random rand = new Random();
+            CurrentValue += rand.Next(-MaxChange, MaxChange);
+            // Increase the number of changes in value by 1
             NumChanges++;
-            if ((CurrentValue - InitialValue) > Threshold)
+            // Check if the threshold is reached
+            if (Math.Abs(CurrentValue - InitialValue) >= Threshold)
             {
-                StockNotification note = StockNotification;
-                StockEvent?.Invoke(this, note);
+                // Raise the events
+                Parallel.Invoke(() => StockEvent?.Invoke(this, new EventData(StockName, InitialValue, CurrentValue, NumChanges, DateTime.Now)),
+                () => StockEventData?.Invoke(this, new EventData(StockName, InitialValue, CurrentValue, NumChanges, DateTime.Now)));
             }
         }
     }
+}
 }

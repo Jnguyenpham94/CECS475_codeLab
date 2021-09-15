@@ -11,11 +11,16 @@ namespace Lab_1
         public string BrokerName { get; set; }
 
         public List<Stock> stocks = new List<Stock>();
+        // Path of the textfile to save the stock's information when the threshold is reached
+        private readonly string _docPath =
+        Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory())));
 
         public static ReaderWriterLockSlim myLock = new ReaderWriterLockSlim();
         readonly string docPath = @"C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\Lab3_output.txt";
 
         public string titles = "Broker".PadRight(10) + "Stock".PadRight(15) + "Value".PadRight(10) + "Changes".PadRight(10) + "Date and Time";
+
+        public Mutex _locker = new Mutex();
 
         /// <summary>
         ///     The stockbroker object
@@ -26,33 +31,42 @@ namespace Lab_1
             BrokerName = brokerName;
         }
 
-        /// <summary>
-        ///     Adds stock objects to the stock list
-        /// </summary>
-        /// <param name="stock">Stock object</param>
+
         public void AddStock(Stock stock)
         {
+            // Add this stock to the list of stocks controlled by the stock broker
             stocks.Add(stock);
-            stock.StockEvent += EventHandler;
+            // Subscribe to the events
+            //stock.StockEvent += Notify;
+            stock.StockEventData += WriteToFile;
         }
-
-        /// <summary>
-        ///     The eventhandler that raises the event of a change
-        /// </summary>
-        /// <param name="sender">The sender that indicated a change</param>
-        /// <param name="e">Event arguments</param>
-        void EventHandler(Object sender, EventArgs e)
+        private void Notify(string stockName, int initialValue, int currentValue, int
+        numOfChanges, DateTime currentTime)
+        {
+            Console.WriteLine(BrokerName.PadRight(20) + stockName.PadRight(20) +
+            initialValue.ToString().PadRight(20) + currentValue.ToString().PadRight(20) +
+            numOfChanges.ToString().PadRight(20) + currentTime);
+        }
+        // Output to a textfile the broker's name and the stock's name, initial value, current value, number of changes in value, and time when the threshold is reached
+        private void WriteToFile(object sender, EventData e)
         {
             try
             {
-                Stock newStock = (Stock)sender;
-                //string statement;
-                Console.WriteLine(titles);
+                // Wait for the resource to be free
+                lock (_locker)
+                {
+                    using (FileStream file = new FileStream(Path.Combine(_docPath,
+                    "output.txt"), FileMode.Append, FileAccess.Write, FileShare.Read))
+                    using (StreamWriter outputFile = new StreamWriter(file))
+                    {
+                        outputFile.WriteLine(BrokerName.PadRight(20) +
+                        e.StockName.PadRight(20) + e.InitialValue.ToString().PadRight(20) +
+                        e.CurrentValue.ToString().PadRight(20) + e.NumOfChanges.ToString().PadRight(20) +  e.CurrentTime);
+                    }
+                }
             }
-            finally
-            {//file processing HERE
+            catch (IOException) { }
+        }
 
-            }
-    }
     } 
 }
