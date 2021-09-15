@@ -42,7 +42,6 @@ namespace Lab_1
             {
                 Thread.Sleep(500);
                 ChangeStockValue();
-                i++;
             }
         }
         // Change the stock value and invoke event to notify stock brokers when the threshold is reach
