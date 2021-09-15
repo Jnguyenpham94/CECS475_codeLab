@@ -3,3 +3,14 @@ C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.Gen
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.AssemblyInfoInputs.cache
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.AssemblyInfo.cs
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\bin\Debug\net5.0\Lab 1.exe
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\bin\Debug\net5.0\Lab 1.deps.json
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\bin\Debug\net5.0\Lab 1.runtimeconfig.json
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\bin\Debug\net5.0\Lab 1.runtimeconfig.dev.json
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\bin\Debug\net5.0\Lab 1.dll
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\bin\Debug\net5.0\ref\Lab 1.dll
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\bin\Debug\net5.0\Lab 1.pdb
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.dll
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\ref\Lab 1.dll
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.pdb
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\obj\Debug\net5.0\Lab 1.genruntimeconfig.cache

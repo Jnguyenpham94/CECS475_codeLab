@@ -15,9 +15,6 @@ namespace Lab_1
         private readonly string _docPath =
         Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory())));
 
-        public static ReaderWriterLockSlim myLock = new ReaderWriterLockSlim();
-        readonly string docPath = @"C:\Users\nguye\Documents\GitHub\CECS475_codeLab\Lab 1\Lab3_output.txt";
-
         public string titles = "Broker".PadRight(10) + "Stock".PadRight(15) + "Value".PadRight(10) + "Changes".PadRight(10) + "Date and Time";
 
         public Mutex _locker = new Mutex();
