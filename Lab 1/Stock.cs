@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 namespace Lab_1
 {
     public class Stock
@@ -47,25 +46,19 @@ namespace Lab_1
             }
         }
         
-        // Change the stock value and invoke event to notify stock brokers when the threshold is reach
-        private void ChangeStockValue()
+        /// <summary>
+        /// Changes the stock value and also raising the event of stock value changes
+        /// </summary>
+        public void ChangeStockValue()
         {
-            // Generate a random number to within a range that stock can change every time unit and add it to the current stock's value
-            Random rand = new Random();
-            CurrentValue += rand.Next(-MaxChange, MaxChange);
-
-            // Increase the number of changes in value by 1
+            var rand = new Random().Next(-MaxChange, MaxChange);
+            CurrentValue += rand;
             NumChanges++;
-
-            // Check if the threshold is reached
-            if (Math.Abs(CurrentValue - InitialValue) >= Threshold)
+            if ((CurrentValue - InitialValue) > Threshold)
             {
-                // Raise the events
-                Parallel.Invoke(() => StockEvent?.Invoke(StockName, InitialValue, CurrentValue, NumChanges, DateTime.Now),
-                                () => StockEventData?.Invoke(this, new EventData(StockName, InitialValue, CurrentValue, NumChanges, DateTime.Now)));
+                StockNotification note = StockNotification;
+                StockEvent?.Invoke(this, note);
             }
         }
-
     }
-
 }
