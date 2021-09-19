@@ -2,9 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\CalculatorLibrary",
+    "\\CodeLab 2",
+    "\\CodeLab 2\\Properties",
+    "\\CodeLab 2\\ViewModel",
     "\\Lab 1",
     "\\Names"
   ],
-  "SelectedNode": "\\Names\\MainWindow.xaml",
+  "SelectedNode": "\\CodeLab 2\\App.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

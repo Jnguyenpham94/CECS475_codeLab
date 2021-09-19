@@ -24,5 +24,6 @@ namespace CodeLab_2
         {
             InitializeComponent();
         }
+
     }
 }

@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,10,0,0" Width="757" Height="51"><Run Text="TextBlock"/><InlineUIContainer>
+            </InlineUIContainer></TextBlock>
+        <Button Content="7" HorizontalAlignment="Left" Margin="43,146,0,0" VerticalAlignment="Top" Width="159" Height="48"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="214,146,0,0" VerticalAlignment="Top" Width="157" Height="48"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="381,146,0,0" VerticalAlignment="Top" Width="159" Height="48"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="43,207,0,0" VerticalAlignment="Top" Width="159" Height="48"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="214,207,0,0" VerticalAlignment="Top" Width="157" Height="48"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="382,207,0,0" VerticalAlignment="Top" Width="160" Height="48"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="43,268,0,0" VerticalAlignment="Top" Width="159" Height="48"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="214,268,0,0" VerticalAlignment="Top" Width="157" Height="48"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="382,268,0,0" VerticalAlignment="Top" Width="160" Height="48"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="214,329,0,0" VerticalAlignment="Top" Width="157" Height="48"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="563,146,0,0" VerticalAlignment="Top" Width="159" Height="48"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="563,207,0,0" VerticalAlignment="Top" Width="159" Height="48"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="563,268,0,0" VerticalAlignment="Top" Width="159" Height="48"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="563,329,0,0" VerticalAlignment="Top" Width="159" Height="48"/>
+        <Button Content="Enter" HorizontalAlignment="Left" Margin="382,329,0,0" VerticalAlignment="Top" Width="160" Height="48" />
+        <Button Content="clear" HorizontalAlignment="Left" Margin="43,329,0,0" VerticalAlignment="Top" Width="157" Height="48"/>
     </Grid>
 </Window>
