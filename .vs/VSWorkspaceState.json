@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CalculatorLibrary",
-    "\\Lab 1"
+    "\\Lab 1",
+    "\\Names"
   ],
-  "SelectedNode": "\\Lab 1\\Stock.cs",
+  "SelectedNode": "\\Names\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }
