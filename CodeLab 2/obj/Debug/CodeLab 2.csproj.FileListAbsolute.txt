@@ -28,3 +28,4 @@ C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CodeLab 2\obj\Debug\CodeLab 2.cs
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CodeLab 2\obj\Debug\CodeLab 2.csproj.CopyComplete
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CodeLab 2\obj\Debug\CodeLab 2.exe
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CodeLab 2\obj\Debug\CodeLab 2.pdb
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\CodeLab 2\obj\Debug\CodeLab 2.csproj.AssemblyReference.cache
