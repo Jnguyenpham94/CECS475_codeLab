@@ -6,8 +6,10 @@
     "\\CodeLab 2\\Properties",
     "\\CodeLab 2\\ViewModel",
     "\\Lab 1",
-    "\\Names"
+    "\\Names",
+    "\\wpfmvvm",
+    "\\wpfmvvm\\wpfmvvm"
   ],
-  "SelectedNode": "\\CodeLab 2\\App.xaml.cs",
+  "SelectedNode": "\\wpfmvvm\\wpfmvvm\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }
