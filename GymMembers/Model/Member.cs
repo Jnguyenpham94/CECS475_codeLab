@@ -136,7 +136,7 @@ namespace GymMembers.Model
         /// <returns>A concatenation of the member's first name, last name, and e-mail.</returns>
         override public string ToString()
         {
-            return __________ + " " + ____________ + ", " + ________________;
+            return firstName + " " + lastName + ", " + email;
         }
     }
 }
