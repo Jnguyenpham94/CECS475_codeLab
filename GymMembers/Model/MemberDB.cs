@@ -44,10 +44,10 @@ namespace GymMembers.Model
 
                 while (input.Peek() != -1)
                 {
-                    string data = input.________();
-                    string[] tokens = data.Split(___________);
-                    Member newMember = new Member(_______,________, _______);
-                    members.______(newMember);
+                    string data = input.ReadLine();
+                    string[] tokens = data.Split(' ');
+                    Member newMember = new Member(tokens[0], tokens[1], tokens[2]);
+                    members.Add(newMember);
                 }
 
                 input.Close();
