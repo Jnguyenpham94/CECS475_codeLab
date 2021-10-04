@@ -8,7 +8,7 @@
         xmlns:local="clr-namespace:GymMembers"
         xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
         mc:Ignorable="d"
-        DataContext="{Binding Source={StaticResource Locator}, Path=___________}"
+        DataContext="{Binding Source={StaticResource Locator}, Path=ViewModelLocator}"
         Title="Gym Memberships" Height="350" Width="525">
     <Grid Background="#FFECEAEA">
         <Button x:Name="button" Content="Add" Grid.Row ="1" Grid.Column ="1" Command="{Binding _____________}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="0,50,0,0"/>
