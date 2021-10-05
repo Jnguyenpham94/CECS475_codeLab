@@ -25,7 +25,7 @@ namespace GymMembers.ViewModel
         /// <summary>
         /// A property that lets the main window connect with its View Model.
         /// </summary>
-        public _________ Main
+        public MainViewModel Main
         {
             get
             {
@@ -36,7 +36,7 @@ namespace GymMembers.ViewModel
         /// <summary>
         /// A property that lets the add window connect with its View Model.
         /// </summary>
-        public ________________ Add
+        public AddViewModel Add
         {
             get
             {
@@ -47,7 +47,7 @@ namespace GymMembers.ViewModel
         /// <summary>
         /// A property that lets the change window connect with its View Model.
         /// </summary>
-        public _______________ Change
+        public ChangeViewModel Change
         {
             get
             {

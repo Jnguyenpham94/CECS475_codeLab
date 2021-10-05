@@ -94,7 +94,7 @@ namespace GymMembers.ViewModel
         {
             if (window != null)
             {
-                window._______________________;
+                window.Close();
             }
         }
 

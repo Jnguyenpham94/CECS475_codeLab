@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GymMembers.View"
         mc:Ignorable="d"
-        DataContext="{Binding Source={StaticResource Locator}, Path=_______________}"
+        DataContext="{Binding Source={StaticResource Locator}, Path=ViewModelLocator}"
         Title="Change Membership" Height="237" Width="300">
     <Grid Background="#FFECEAEA">
         <Grid.ColumnDefinitions>

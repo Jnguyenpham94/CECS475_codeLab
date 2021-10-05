@@ -36,5 +36,10 @@ namespace GymMembers.View
         {
             this.Close();
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            App.Current.Shutdown();
+        }
     }
 }
