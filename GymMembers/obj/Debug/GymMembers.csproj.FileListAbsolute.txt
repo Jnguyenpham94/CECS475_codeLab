@@ -332,3 +332,13 @@ D:\PNgyuentransfer\CECSFA2021\CECS475\LABS\lab2\GymMembers\obj\Debug\GymMembers.
 D:\PNgyuentransfer\CECSFA2021\CECS475\LABS\lab2\GymMembers\obj\Debug\GymMembers.csproj.CopyComplete
 D:\PNgyuentransfer\CECSFA2021\CECS475\LABS\lab2\GymMembers\obj\Debug\GymMembers.exe
 D:\PNgyuentransfer\CECSFA2021\CECS475\LABS\lab2\GymMembers\obj\Debug\GymMembers.pdb
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\GymMembers\obj\Debug\GymMembers.csproj.AssemblyReference.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\GymMembers\obj\Debug\View\AddWindow.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\GymMembers\obj\Debug\View\ChangeWindow.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\GymMembers\obj\Debug\View\MainWindow.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\GymMembers\obj\Debug\App.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\GymMembers\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\GymMembers\obj\Debug\GymMembers_MarkupCompile.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\GymMembers\obj\Debug\GymMembers_MarkupCompile.lref
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\GymMembers\obj\Debug\GymMembers.exe
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\GymMembers\obj\Debug\GymMembers.pdb
