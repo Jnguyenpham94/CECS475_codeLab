@@ -37,6 +37,7 @@ namespace GymMembers.View
             this.Close();
         }
 
+        //causes entire program to exit
         private void button2_Click(object sender, RoutedEventArgs e)
         {
             App.Current.Shutdown();
