@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\CodeLab 2",
-    "\\CodeLab 2\\Properties",
     "\\CodeLab 2\\ViewModel",
     "\\GymMembers",
     "\\Lab 1",
     "\\Names",
     "\\WpfApplication1",
+    "\\WpfApplication1\\WpfApplication1",
     "\\wpfmvvm",
     "\\wpfmvvm\\wpfmvvm"
   ],
+  "SelectedNode": "\\WpfApplication1\\WpfApplication1\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

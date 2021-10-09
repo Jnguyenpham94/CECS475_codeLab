@@ -23,11 +23,11 @@
         <Label x:Name="label" Content="First Name:" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0"/>
         <Label x:Name="label1" Content="Last Name:" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0"/>
         <Label x:Name="label2" Content="E-mail:" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding _________}" Width="120" Grid.Row="1" Grid.Column="1"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding _________}" Width="120" Grid.Row="2" Grid.Column="1"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding __________}" Width="120" Grid.Row="3" Grid.Column="1"/>
-        <Button x:Name="button" Content="Update" HorizontalAlignment="Center" VerticalAlignment="Top" Command="{Binding __________}" CommandParameter="{Binding ElementName=changeWindow}" Width="75" Grid.Row="4" Grid.Column="0"/>
-        <Button x:Name="button1" Content="Delete" HorizontalAlignment="Center" VerticalAlignment="Top" Command="{Binding _____________}" CommandParameter="{Binding ElementName=changeWindow}" Width="75" Grid.Row="4" Grid.Column="1"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding EnteredFName}" Width="120" Grid.Row="1" Grid.Column="1"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding EnteredLName}" Width="120" Grid.Row="2" Grid.Column="1"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding EnteredEmail}" Width="120" Grid.Row="3" Grid.Column="1"/>
+        <Button x:Name="button" Content="Update" HorizontalAlignment="Center" VerticalAlignment="Top" Command="{Binding UpdateCommand}" CommandParameter="{Binding ElementName=changeWindow}" Width="75" Grid.Row="4" Grid.Column="0"/>
+        <Button x:Name="button1" Content="Delete" HorizontalAlignment="Center" VerticalAlignment="Top" Command="{Binding DeleteCommand}" CommandParameter="{Binding ElementName=changeWindow}" Width="75" Grid.Row="4" Grid.Column="1"/>
 
     </Grid>
 </Window>
