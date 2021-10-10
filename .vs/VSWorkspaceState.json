@@ -8,9 +8,10 @@
     "\\Names",
     "\\WpfApplication1",
     "\\WpfApplication1\\WpfApplication1",
+    "\\WpfApplication1\\WpfApplication1\\ViewModel",
     "\\wpfmvvm",
     "\\wpfmvvm\\wpfmvvm"
   ],
-  "SelectedNode": "\\WpfApplication1\\WpfApplication1\\MainWindow.xaml",
+  "SelectedNode": "\\WpfApplication1\\WpfApplication1\\ViewModel\\MainViewModel.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -16,7 +16,7 @@
         <ListBox x:Name="listBox" ItemsSource="{Binding MemberList}" SelectedItem="{Binding SelectedMember}" Grid.Row ="1" Grid.Column ="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="220" Width="322">
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="MouseUp">
-                    <i:InvokeCommandAction Command="{Binding ChangeCommand}"/>
+                    <i:InvokeCommandAction Command="{Binding MemberList}"/><!--ERROR MIGHT BE HERE-->
                 </i:EventTrigger> 
             </i:Interaction.Triggers>
         </ListBox>
