@@ -121,12 +121,12 @@ namespace GymMembers.ViewModel
             if (m.Message == "Update")
             {
                 members[members.IndexOf(SelectedMember)] = m;
-                database.________________();
+                database.SaveMemberships();//unsure here
             }
             else if (m.Message == "Add")
             {
                 members.Add(m);
-                database._______________________();
+                database.SaveMemberships();//unsure here
             }
         }
 
@@ -139,8 +139,8 @@ namespace GymMembers.ViewModel
         {
             if (msg.Notification == "Delete")
             {
-                members.Remove(_______________);
-                database._____________________();
+                members.Remove(SelectedMember);
+                database.SaveMemberships();//unsure here
             }
         }
 
