@@ -17,9 +17,9 @@ namespace GymMembers.ViewModel
         public ViewModelLocator()
         {
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
-            SimpleIoc.Default.Register<_________l>();
-            SimpleIoc.Default.Register<__________l>();
-            SimpleIoc.Default.Register<___________>();
+            SimpleIoc.Default.Register<MainViewModel>();
+            SimpleIoc.Default.Register<AddViewModel>();
+            SimpleIoc.Default.Register<ChangeViewModel>();
         }
 
         /// <summary>
