@@ -42,8 +42,8 @@ namespace GymMembers.ViewModel
             AddCommand = new RelayCommand(AddMethod);
             ExitCommand = new RelayCommand<IClosable>(ExitMethod);
             ChangeCommand = new RelayCommand(ChangeMethod);
-            Messenger.Default.Register<________________>(this, ReceiveMember);
-            Messenger.Default.Register<________________>(this, ReceiveMessage);
+            Messenger.Default.Register<MessageMember>(this, ReceiveMember);
+            Messenger.Default.Register<NotificationMessage>(this, ReceiveMessage);
         }
 
         /// <summary>
@@ -105,9 +105,9 @@ namespace GymMembers.ViewModel
         {
             if (SelectedMember != null)
             {
-                ChangeWindow change = new ____________________);
-                change._______________;
-                Messenger.Default.Send(___________________);
+                ChangeWindow change = new ChangeWindow();
+                change.Show();
+                Messenger.Default.Send(new NotificationMessage ("Change Window Open"));
             }
         }
 
