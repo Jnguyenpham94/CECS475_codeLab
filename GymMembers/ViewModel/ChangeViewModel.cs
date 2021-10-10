@@ -37,7 +37,7 @@ namespace GymMembers.ViewModel
         {
             UpdateCommand = new RelayCommand<IClosable>(UpdateMethod);
             DeleteCommand = new RelayCommand<IClosable>(DeleteMethod);
-            Messenger.Default.Register<______________>(this, GetSelected);
+            Messenger.Default.Register<MessageMember>(this, GetSelected);
         }
 
         /// <summary>
@@ -58,7 +58,7 @@ namespace GymMembers.ViewModel
         {
             try
             {
-                Messenger.Default.________(new _______________(_____,______,______, "Update"));
+                Messenger.Default.Send(new MessageMember(EnteredFName, EnteredLName, EnteredEmail, "Update"));
                 window.Close();
             }
             catch (ArgumentException)
@@ -83,7 +83,7 @@ namespace GymMembers.ViewModel
         {
             if (window != null)
             {
-                Messenger.Default.__________(new NotificationMessage(_________));
+                Messenger.Default.Send(new NotificationMessage("Window Closing"));
                 window.Close();
             }
         }
@@ -92,7 +92,7 @@ namespace GymMembers.ViewModel
         /// Receives a member from the main VM to auto-fill the change box with the currently selected member.
         /// </summary>
         /// <param name="m">The member data to fill in.</param>
-        public void GetSelected(_________________ m)
+        public void GetSelected(MessageMember m)
         {
             EnteredFName = m.FirstName;
             EnteredLName = m.LastName;

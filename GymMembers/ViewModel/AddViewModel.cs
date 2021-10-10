@@ -36,8 +36,8 @@ namespace GymMembers.ViewModel
         /// </summary>
         public AddViewModel()
         {
-            SaveCommand = new RelayCommand<IClosable>(___________);
-            CancelCommand = new RelayCommand<IClosable>(_______________);
+            SaveCommand = new RelayCommand<IClosable>(SaveMethod);
+            CancelCommand = new RelayCommand<IClosable>(CancelMethod);
         }
 
         /// <summary>
@@ -60,8 +60,8 @@ namespace GymMembers.ViewModel
             {
                 if (window != null)
                 {
-                    Messenger.Default.___________(new MessageMember(_______, ________, _________l, "Add"));
-                    window._______();
+                    Messenger.Default.Send(new MessageMember(EnteredFName, EnteredLName, EnteredEmail, "Add"));
+                    window.Close();
                 }
             }
             catch (ArgumentException)
