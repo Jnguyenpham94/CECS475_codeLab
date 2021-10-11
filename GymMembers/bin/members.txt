@@ -1,4 +1,4 @@
-John|Nguyen|john@gmail.com
+Phuong|Nguyen|prof@csulb.edu
 Alexander|Luther|evilcomics@metro.com
 Dmitry|Merezko|dimi@gmail.com
 Jonathan|Nguyen-Pham|jon90@yahoo.com
