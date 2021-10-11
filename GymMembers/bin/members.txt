@@ -1,2 +1,4 @@
 John|Nguyen|john@gmail.com
-Lex|Luthor|ALute@yahoo.com
+Alexander|Luther|evilcomics@metro.com
+Dmitry|Merezko|dimi@gmail.com
+Jonathan|Nguyen-Pham|jon90@yahoo.com

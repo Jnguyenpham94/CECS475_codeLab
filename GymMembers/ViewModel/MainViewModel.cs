@@ -107,7 +107,7 @@ namespace GymMembers.ViewModel
             {
                 ChangeWindow change = new ChangeWindow();
                 change.Show();
-                Messenger.Default.Send(new NotificationMessage ("Change Window Open"));
+                Messenger.Default.Send("");
             }
         }
 
@@ -121,12 +121,12 @@ namespace GymMembers.ViewModel
             if (m.Message == "Update")
             {
                 members[members.IndexOf(SelectedMember)] = m;
-                database.SaveMemberships();//unsure here
+                database.SaveMemberships();
             }
             else if (m.Message == "Add")
             {
                 members.Add(m);
-                database.SaveMemberships();//unsure here
+                database.SaveMemberships();
             }
         }
 
@@ -140,7 +140,7 @@ namespace GymMembers.ViewModel
             if (msg.Notification == "Delete")
             {
                 members.Remove(SelectedMember);
-                database.SaveMemberships();//unsure here
+                database.SaveMemberships();
             }
         }
 

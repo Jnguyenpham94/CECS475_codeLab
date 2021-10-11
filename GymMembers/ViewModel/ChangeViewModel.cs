@@ -83,7 +83,7 @@ namespace GymMembers.ViewModel
         {
             if (window != null)
             {
-                Messenger.Default.Send(new NotificationMessage("Window Closing"));
+                Messenger.Default.Send(new NotificationMessage("Delete"));
                 window.Close();
             }
         }
