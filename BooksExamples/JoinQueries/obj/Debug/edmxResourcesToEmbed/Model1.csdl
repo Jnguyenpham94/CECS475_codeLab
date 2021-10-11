@@ -23,7 +23,7 @@
     <End Role="Authors" Type="Self.Author" Multiplicity="*" />
     <End Role="Titles" Type="Self.Title" Multiplicity="*" />
   </Association>
-  <EntityContainer Name="BooksEntities1" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="BooksEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Authors" EntityType="Self.Author" />
     <EntitySet Name="Titles" EntityType="Self.Title" />
     <AssociationSet Name="AuthorISBN" Association="Self.AuthorISBN">

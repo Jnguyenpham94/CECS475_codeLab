@@ -108,3 +108,17 @@ C:\cecs475sp17\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojResolveAsse
 C:\cecs475sp17\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
 C:\cecs475sp17\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
 C:\cecs475sp17\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.Cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\bin\Debug\Books.mdf
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\bin\Debug\Books_log.ldf
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\bin\Debug\JoinQueries.pdb
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\bin\Debug\EntityFramework.dll
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\bin\Debug\EntityFramework.xml
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.AssemblyReference.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
