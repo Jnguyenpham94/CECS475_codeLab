@@ -1,2 +1,2 @@
-s|Nguyen|John@csulb.edu
-a|rrrrrrrrrrrrrrrr|a@w.v
+John|Nguyen|john@gmail.com
+Lex|Luthor|ALute@yahoo.com

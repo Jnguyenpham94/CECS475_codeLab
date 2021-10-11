@@ -45,7 +45,7 @@ namespace GymMembers.Model
                 while (input.Peek() != -1)
                 {
                     string data = input.ReadLine();
-                    string[] tokens = data.Split(' ');
+                    string[] tokens = data.Split('|');
                     Member newMember = new Member(tokens[0], tokens[1], tokens[2]);
                     members.Add(newMember);
                 }
