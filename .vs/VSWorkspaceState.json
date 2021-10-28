@@ -1,17 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CodeLab 2",
-    "\\CodeLab 2\\ViewModel",
-    "\\GymMembers",
-    "\\Lab 1",
-    "\\Names",
-    "\\WpfApplication1",
-    "\\WpfApplication1\\WpfApplication1",
-    "\\WpfApplication1\\WpfApplication1\\ViewModel",
-    "\\wpfmvvm",
-    "\\wpfmvvm\\wpfmvvm"
+    "\\RepositoryDesign",
+    "\\RepositoryDesign\\ConsoleClient"
   ],
-  "SelectedNode": "\\WpfApplication1\\WpfApplication1\\ViewModel\\MainViewModel.cs",
+  "SelectedNode": "\\RepositoryDesign\\ConsoleClient\\Menu.cs",
   "PreviewInSolutionExplorer": false
 }
