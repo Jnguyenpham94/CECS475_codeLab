@@ -22,13 +22,13 @@ C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\scoped
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.TagHelpers.input.cache
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.TagHelpers.output.cache
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.RazorCoreGenerate.cache
-C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
-C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
-C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.RazorTargetAssemblyInfo.cache
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.RazorTargetAssemblyInfo.cs
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.Views.pdb
@@ -37,3 +37,4 @@ C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\ref\Mv
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.pdb
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.genruntimeconfig.cache
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.csproj.CopyComplete
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.csproj.AssemblyReference.cache
