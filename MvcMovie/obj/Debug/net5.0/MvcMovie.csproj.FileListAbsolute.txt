@@ -38,3 +38,5 @@ C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMov
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.genruntimeconfig.cache
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.csproj.CopyComplete
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.csproj.AssemblyReference.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\HelloWorld\Index.cshtml.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\HelloWorld\Welcome.cshtml.g.cs
