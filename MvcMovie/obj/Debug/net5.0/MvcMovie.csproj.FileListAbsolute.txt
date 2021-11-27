@@ -150,3 +150,4 @@ C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
 C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MvcMovie\obj\Debug\net5.0\MvcMovie.csproj.AssemblyReference.cache
