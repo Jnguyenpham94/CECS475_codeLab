@@ -1,26 +1,24 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using MovieList.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-
-namespace MovieList.Controllers
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using MovieList.Models;
+namespace MovieListPN.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private MovieContext context { get; set; }
+        public HomeController(MovieContext ctx)
         {
-            _logger = logger;
+            context = ctx;
         }
-
         public IActionResult Index()
         {
-            return View();
+            var movies = context.Movies.OrderBy(m => m.Name).ToList();
+            return View(movies);
         }
 
     }
