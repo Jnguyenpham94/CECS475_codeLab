@@ -1,0 +1,8 @@
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MovieList\obj\Debug\net5.0\MovieList.csproj.AssemblyReference.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MovieList\obj\Debug\net5.0\MovieList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MovieList\obj\Debug\net5.0\MovieList.AssemblyInfoInputs.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MovieList\obj\Debug\net5.0\MovieList.AssemblyInfo.cs
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MovieList\obj\Debug\net5.0\MovieList.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MovieList\obj\Debug\net5.0\MovieList.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MovieList\obj\Debug\net5.0\MovieList.RazorAssemblyInfo.cache
+C:\Users\nguye\Documents\GitHub\CECS475_codeLab\MovieList\obj\Debug\net5.0\MovieList.RazorAssemblyInfo.cs
